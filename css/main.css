@@ -1,0 +1,62 @@
+.intro{
+    width: 100%;
+    height: 800px;
+    background-image: url(../assets/dummy\ sub\ 10.jpeg);
+    background-position: center;
+    background-size: cover;
+}
+
+.intro p{
+    color: beige;
+    padding-left: 900px;
+    padding-top: 70px;
+    font-family: 'Rubik Mono One', sans-serif;
+    font-size: 30px;
+}
+
+.background-one{
+    width: 100%;
+    height: 700px;
+    background-image: url(../assets/background\ image\ one.jpeg);
+    background-position: center;
+    background-size: cover;
+}
+
+.header-box{
+    width: 650px;
+    height: 700px;
+    background-color: bisque;
+    margin-left: 765px;
+    margin-top: -800px;
+}
+
+.header-box p{
+    background-color: bisque;
+    padding-top: 20px;
+    padding-left: 40px;
+    font-family: 'Ultra', serif;
+}
+
+.tob{
+    width: 650px;
+    color: pink;
+    height: 45px;
+    background-color: bisque;
+}
+
+.tob h3{
+    padding-left: 240px;
+    padding-top: 20px;
+    font-family: 'Ultra', serif;
+}
+
+.chef-image{
+    width: 500px;
+    height: 500px;
+    border-radius: 350px;
+    background-image: url(../assets/master-chef-logo-design-template-free-vector.webp);
+    background-position: center;
+    background-size: cover;
+    margin-top: -450px;
+    margin-left: 120px;
+}
