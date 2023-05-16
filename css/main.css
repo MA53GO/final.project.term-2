@@ -60,3 +60,87 @@
     margin-top: -450px;
     margin-left: 120px;
 }
+
+.dummy-subs{
+    width: 100%;
+    height: 400px;
+    
+    color: white;
+}
+
+.dummy-subs H3{
+    padding-left: 550px;
+    margin-top: 20px;
+    padding-top: 30px;
+    font-family: 'Ultra', serif;
+    color: pink;
+}
+
+.sub-one{
+    width: 300px;
+    height: 300px;
+    border-radius: 200px;
+    margin-top: 25px;
+    background-image: url(../assets/dummy\ sub\ one.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.sub-one p{
+    font-family: 'Rubik Mono One', sans-serif;
+    color: pink;
+}
+
+
+.sub-two{
+    width: 300px;
+    height: 300px;
+    border-radius: 200px;
+    margin-left: 350px;
+    margin-top: -110px;
+    background-image: url(../assets/dummy\ sub\ two.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.sub-two p{
+    font-family: 'Rubik Mono One', sans-serif;
+    color: pink;
+}
+
+.sub-three{
+    width: 300px;
+    height: 300px;
+    border-radius: 200px;
+    margin-left: 700px;
+    margin-top: -490px;
+    background-image: url(../assets/dummy\ sub\ three.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.sub-three p{
+    margin-top: -25px;
+    font-family: 'Rubik Mono One', sans-serif;
+    color: pink;
+}
+
+.sub-four{
+    width: 300px;
+    height: 300px;
+    border-radius: 200px;
+    margin-left: 1100px;
+    margin-top: -110px;
+    background-image: url(../assets/dummy\ sub\ four.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.sub-four p{
+    font-family: 'Rubik Mono One', sans-serif;
+    color: pink;
+}
+
+
+
+
