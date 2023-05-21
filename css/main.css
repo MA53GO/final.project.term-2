@@ -6,7 +6,7 @@
     margin-left: -600px;
     margin-top: 20px;
     font-family: 'Ultra', serif;
-    color: whitesmoke !important;
+    color: whitesmoke;
    
 }
 
@@ -285,6 +285,7 @@
     background-size: cover;
 
 }
+
 .instagram-logo{
     width: 100px;
     height: 100px;

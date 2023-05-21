@@ -1,7 +1,19 @@
+.chef-logo{
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    margin-left: 30px;
+    margin-top: -40px;
+    background-image: url(../assets/master-chef-logo-design-template-free-vector.webp);
+    background-position: center;
+    background-size: cover;
+
+}
+
+
 .header{
     float: right;
 }
-
 
 .header h3{
     margin-left: -1000px;
@@ -50,7 +62,7 @@
 
 .intro{
     width: 100%;
-    height: 850px;
+    height: 1500px;
     background-image: url(../assets/menu\ BG.jpeg);
     background-position: center;
     background-size: cover;
@@ -59,17 +71,372 @@
 .Menu{
     width: 700px;
     height: 600px;
-    border: 2px solid whitesmoke;
     color: orangered;
-    font-family: 'Rubik Mono One', sans-serif;
-    margin-left: 150px;
-    margin-top: 100px;
-    background-image: url(../assets/BG.jpeg);
+    font-family: 'Pangolin', cursive;
+    margin-left: 130px;
+    margin-top: 70px;
+    background-image: url(../assets/menu2.jpeg);
+    background-position: right;
+    background-size: cover;
+} 
+
+.Menu h1{
+    margin-left: 90px;
 }
 
+.menu-list {
+   padding-left: 50px;
+}
 
-.bread{
-    width: 200px;
-    height: 400px;
-    background-color: aqua;
+.TORTAS{
+    width: 210px;
+    height: 50px;
+    border-radius: 20px;
+    border: 2px solid whitesmoke;
+    padding-left: 50px;
+    padding-top: 10px;
+}
+
+.TORTAS:hover{
+    width: 210px;
+    height: 50px;
+    border-radius: 20px;
+    border: 2px solid whitesmoke;
+    padding-left: 50px;
+    padding-top: 10px;
+    background-color: whitesmoke;
+    color: black;
+    cursor: pointer;
+}
+
+.tORTAS{
+    width: 210px;
+    height: 50px;
+    border-radius: 20px;
+    border: 2px solid whitesmoke;
+    padding-left: 50px;
+    padding-top: 10px;
+}
+
+.tORTAS:hover{
+    width: 210px;
+    height: 50px;
+    border-radius: 20px;
+    border: 2px solid whitesmoke;
+    padding-left: 50px;
+    padding-top: 10px;
+    background-color: whitesmoke;
+    color: black;
+    cursor: pointer;
+}
+
+.SUBMARINE{
+    width: 210px;
+    height: 50px;
+    border-radius: 20px;
+    border: 2px solid whitesmoke;
+    padding-left: 50px;
+    padding-top: 10px;
+}
+
+.SUBMARINE:hover{
+    width: 210px;
+    height: 50px;
+    border-radius: 20px;
+    border: 2px solid whitesmoke;
+    padding-left: 50px;
+    padding-top: 10px;
+    background-color: whitesmoke;
+    color: black;
+    cursor: pointer;
+}
+
+.POBOY{
+    width: 210px;
+    height: 50px;
+    border-radius: 20px;
+    border: 2px solid whitesmoke;
+    padding-left: 50px;
+    padding-top: 10px;
+}
+
+.POBOY:hover{
+    width: 210px;
+    height: 50px;
+    border-radius: 20px;
+    border: 2px solid whitesmoke;
+    padding-left: 50px;
+    padding-top: 10px;
+    background-color: whitesmoke;
+    color: black;
+    cursor: pointer;
+}
+
+.OG{
+    width: 210px;
+    height: 50px;
+    border-radius: 20px;
+    border: 2px solid whitesmoke;
+    padding-left: 50px;
+    padding-top: 10px;
+}
+
+.OG:hover{
+    width: 210px;
+    height: 50px;
+    border-radius: 20px;
+    border: 2px solid whitesmoke;
+    padding-left: 50px;
+    padding-top: 10px;
+    background-color: whitesmoke;
+    color: black;
+    cursor: pointer;
+}
+
+.HERO{
+    width: 210px;
+    height: 50px;
+    border-radius: 20px;
+    border: 2px solid whitesmoke;
+    padding-left: 50px;
+    
+}
+
+.HERO:hover{
+    width: 210px;
+    height: 50px;
+    border-radius: 20px;
+    border: 2px solid whitesmoke;
+    padding-left: 50px;
+   
+    background-color: whitesmoke;
+    color: black;
+    cursor: pointer;
+}
+
+.CS{
+    width: 210px;
+    height: 50px;
+    border-radius: 20px;
+    border: 2px solid whitesmoke;
+    padding-left: 50px;
+    padding-top: 10px;
+}
+
+.CS:hover{
+    width: 210px;
+    height: 50px;
+    border-radius: 20px;
+    border: 2px solid whitesmoke;
+    padding-left: 50px;
+    padding-top: 10px;
+    background-color: whitesmoke;
+    color: black;
+    cursor: pointer;
+}
+
+.MM{
+    width: 210px;
+    height: 50px;
+    border-radius: 20px;
+    border: 2px solid whitesmoke;
+    padding-left: 50px;
+    padding-top: 10px;
+}
+
+.MM:hover{
+    width: 210px;
+    height: 50px;
+    border-radius: 20px;
+    border: 2px solid whitesmoke;
+    padding-left: 50px;
+    padding-top: 10px;
+    background-color: whitesmoke;
+    color: black;
+    cursor: pointer;
+}
+
+.MYOS{
+    margin-left: 200px;
+    margin-top: 40px;
+    margin-bottom: 25px;
+    font-family: 'Fugaz One', cursive;
+}
+
+.BREAD{
+    width: 290px;
+    height: 50px;
+    border-radius: 20px;
+    border: 2px solid orangered;
+    padding-left: 20px;
+    margin-left: 50px;
+}
+
+.MEAT{
+    width: 290px;
+    height: 50px;
+    border-radius: 20px;
+    border: 2px solid orangered;
+    padding-left: 20px;
+    margin-left: 400px;
+    margin-top: -500px;
+}
+
+.PASTE{
+    width: 290px;
+    height: 50px;
+    border-radius: 20px;
+    border: 2px solid orangered;
+    padding-left: 20px;
+    margin-left: 750px;
+    margin-top: -600px;
+}
+
+.toppings h3{
+    font-family: 'Fugaz One', cursive;
+}
+
+.toppings{
+    width: 290px;
+    height: 340px;
+    border-radius: 20px;
+    border: 2px solid orangered;
+    padding-left: 20px;
+    margin-left: 50px;
+    margin-top: -20px;
+}
+
+.toppings-two h3{
+    font-family: 'Fugaz One', cursive;
+}
+
+.toppings-two{
+    width: 290px;
+    height: 340px;
+    border-radius: 20px;
+    border: 2px solid orangered;
+    padding-left: 20px;
+    margin-left: 400px;
+    margin-top: -290px;
+}
+
+.toppings-three h3{
+    font-family: 'Fugaz One', cursive;
+    padding-bottom: 5px;
+}
+
+.toppings-three{
+    width: 290px;
+    height: 280px;
+    border-radius: 20px;
+    border: 2px solid orangered;
+    padding-left: 20px;
+    margin-left: 750px;
+    margin-top: -300px;
+}
+
+.button{
+    width: 290px;
+    height: 50px;
+    border-radius: 20px;
+    border: 2px solid orangered;
+    background-color: white;
+    padding-top: 10px;
+    padding-left: 50px;
+    margin-left: 750px;
+    margin-top: 20px;
+    font-family: 'Fugaz One', cursive;
+}
+
+.button:hover{
+    width: 290px;
+    height: 50px;
+    border-radius: 20px;
+    border: 2px solid whitesmoke;
+    background-color: whitesmoke;
+    color: orangered;
+    padding-top: 10px;
+    padding-left: 50px;
+    margin-left: 750px;
+    margin-top: 20px;
+    font-family: 'Fugaz One', cursive;
+}
+
+.checkout-button{
+    width: 290px;
+    height: 50px;
+    border-radius: 20px;
+    border: 2px solid orangered;
+    background-color: white;
+    color: whitesmoke;
+    padding-top: 10px;
+    padding-left: 50px;
+    margin-left: 1100px;
+    margin-top: -20px;
+    font-family: 'Fugaz One', cursive;
+}
+
+.checkout-button:hover{
+    width: 290px;
+    height: 50px;
+    border-radius: 20px;
+    border: 2px solid whitesmoke;
+    background-color: whitesmoke;
+    color: orangered;
+    padding-top: 10px;
+    padding-left: 50px;
+    margin-left: 1100px;
+    margin-top: -20px;
+    font-family: 'Fugaz One', cursive;
+}
+
+.footer{
+    width: 100%;
+    height: 120px;
+    background-color: black;
+    padding-top: 50px;
+}
+
+.chef-logo{
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    margin-left: 50px;
+    background-image: url(../assets/master-chef-logo-design-template-free-vector.webp);
+    background-position: center;
+    background-size: cover;
+
+}
+
+.instagram-logo{
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    margin-left: 1090px;
+    margin-top: -100px;
+    background-image: url(../assets/instagram\ logo.jpeg);
+    background-position: center;
+    background-size: cover;
+}
+
+.twitter-logo{
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    margin-left: 1200px;
+    margin-top: -100px;
+    background-image: url(../assets/twitter\ .png);
+    background-position: center;
+    background-size: cover;
+}
+
+.facebook-logo{
+    width: 110px;
+    height: 110px;
+    border-radius: 50px;
+    margin-left: 1300px;
+    margin-top: -105px;
+    background-image: url(../assets/Facebook.png);
+    background-position: center;
+    background-size: cover;
 }
