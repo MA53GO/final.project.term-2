@@ -15,7 +15,7 @@
 
       <!--internal documents-->
     <link rel="stylesheet" href="../css/blueprint.css">
-    <script type="application/javascript" src="../js/index.js"></script>
+    <script type="application/javascript" src="../js/build.js"></script>
 </head>
 <body>
     <nav>
@@ -39,16 +39,35 @@
                                         <div class="checkout">
                                             <div class="title">
                                                 <h1>SHOPPING CART</h1>
-                                            </div>
+                                                <form id="ogCard">
+                                                    <div class="card" id="cardOne" name="cart"  style="width: 18rem; color: black; height: 130px;">
+                                                        <div class="card-body">
+                                                          <p class="card-text"></p>
+                                                        </div>
+                                                      </div>
+
+                                                      <div class="card" id="cardTwo" name="cart" style="width: 18rem; color: black; height: 130px;">
+                                                        <div class="card-body">
+                                                          <p class="card-text"></p>
+                                                        </div>
+                                                      </div>
+
+                                                      <div class="card" id="cardThree" name="cart" style="width: 18rem; color: black; height: 130px;">
+                                                        <div class="card-body">
+                                                          <p class="card-text"></p>
+                                                        </div>
+                                                      </div>
+                                                </form>
+                                            
                                             <div class="layout">
                                             <h3 class="subtotal">Sub-Total</h3>
                                             <p class="line"></p>
                                             <h4 class="code">Enter Coupon Code</h4>
                                             <input class="ecc" type="tel"   placeholder="Coupon Code">
                                             <p class="line-two"></p>
-                                            <h1 class="total">Total</h1>
+                                            <h1 class="total" id="orderTotal">Total</h1>
                                             <p class="line-three"></p>
-                                            <input class="order"  type="submit" placeholder="PLACE ORDER">
+                                            <input class="order" type="submit" placeholder="PLACE ORDER">
                                            </div>
                                         </div>
                                     </div>

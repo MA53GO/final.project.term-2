@@ -135,11 +135,27 @@
     background-size: cover;
 }
 
-.sub-one p{
+.sub-one h5{
     font-family: 'Rubik Mono One', sans-serif;
     color: black;
 }
 
+.cover-one{
+    width: 300px;
+    height: 300px;
+    opacity: 0;   
+}
+
+.cover-one p{
+    padding-left: 55px;
+    font-weight: 600;
+}
+
+.cover-one:hover{
+    cursor: pointer;
+    opacity: 1;
+    color: black;
+}
 
 .sub-two{
     width: 300px;
@@ -152,9 +168,26 @@
     background-size: cover;
 }
 
-.sub-two p{
+.sub-two h5{
     font-family: 'Rubik Mono One', sans-serif;
     color: orangered;
+}
+
+.cover-two{
+    width: 300px;
+    height: 300px;
+    opacity: 0;
+}
+
+.cover-two p{
+    padding-left: 45px;
+    font-weight: 600;
+}
+
+.cover-two:hover{
+    cursor: pointer;
+    opacity: 1;
+    color: black;
 }
 
 .sub-three{
@@ -168,11 +201,30 @@
     background-size: cover;
 }
 
-.sub-three p{
+.sub-three h5{
     margin-top: -25px;
     font-family: 'Rubik Mono One', sans-serif;
     color: black;
 }
+
+.cover-three{
+    width: 300px;
+    height: 300px;
+    opacity: 0;
+}
+
+.cover-three p{
+    padding-left: 45px;
+    font-weight: 600;
+}
+
+.cover-three:hover{
+    cursor: pointer;
+    opacity: 1;
+    color: black;
+}
+
+
 
 .sub-four{
     width: 300px;
@@ -185,9 +237,26 @@
     background-size: cover;
 }
 
-.sub-four p{
+.sub-four h5{
     font-family: 'Rubik Mono One', sans-serif;
     color: orangered;
+}
+
+.cover-four{
+    width: 300px;
+    height: 300px;
+    opacity: 0;
+}
+
+.cover-four p{
+    padding-left: 45px;
+    font-weight: 600;
+}
+
+.cover-four:hover{
+    cursor: pointer;
+    opacity: 1;
+    color: black;
 }
 
 .dummie-subs{
@@ -214,10 +283,28 @@
     background-size: cover;
 }
 
-.sub-five  p{
+.sub-five h5{
     font-family: 'Rubik Mono One', sans-serif;
     color: black;
 }
+
+.cover-five{
+    width: 300px;
+    height: 300px;
+    opacity: 0;
+}
+
+.cover-five p{
+    padding-left: 45px;
+    font-weight: 600;
+}
+
+.cover-five:hover{
+    cursor: pointer;
+    opacity: 1;
+    color: black;
+}
+
 
 .sub-six{
     width: 300px;
@@ -230,9 +317,26 @@
     background-size: cover;
 }
 
-.sub-six p{
+.sub-six h5{
     font-family: 'Rubik Mono One', sans-serif;
     color: orangered;
+}
+
+.cover-six{
+    width: 300px;
+    height: 300px;
+    opacity: 0;
+}
+
+.cover-six p{
+    padding-left: 45px;
+    font-weight: 600;
+}
+
+.cover-six:hover{
+    cursor: pointer;
+    opacity: 1;
+    color: black;
 }
 
 .sub-seven{
@@ -246,9 +350,26 @@
     background-size: cover;
 }
 
-.sub-seven p{
+.sub-seven h5{
     margin-top: -25px;
     font-family: 'Rubik Mono One', sans-serif;
+    color: black;
+}
+
+.cover-seven{
+    width: 300px;
+    height: 300px;
+    opacity: 0;
+}
+
+.cover-seven p{
+    padding-left: 45px;
+    font-weight: 600;
+}
+
+.cover-seven:hover{
+    cursor: pointer;
+    opacity: 1;
     color: black;
 }
 
@@ -263,9 +384,26 @@
     background-size: cover;
 }
 
-.sub-eight p{
+.sub-eight h5{
     font-family: 'Rubik Mono One', sans-serif;
     color: orangered;
+}
+
+.cover-eight{
+    width: 300px;
+    height: 300px;
+    opacity: 0;
+}
+
+.cover-eight p{
+    padding-left: 45px;
+    font-weight: 600;
+}
+
+.cover-eight:hover{
+    cursor: pointer;
+    opacity: 1;
+    color: black;
 }
 
 .footer{

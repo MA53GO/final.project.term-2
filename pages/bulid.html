@@ -15,13 +15,13 @@
 
      <!--internal documents-->
     <link rel="stylesheet" href="../css/style.css">
-    <script type="application/javascript" src="../js/index.js"></script>
+    <script type="application/javascript" src="../js/build.js"></script>
 </head>
 <body>
-    <div>
+    <form id="sandwichForm" >
         <div class="row">
             <div class="col-12">
-                <div class="intro">
+                <div class="intro" >
                       
                         <div class="header">
                             <h3>Menu</h3>
@@ -32,14 +32,14 @@
                         <div class="Menu">
                             <h1>SUBS OF THE MONTH</h1>
                             <div class="menu-list">
-                            <p class="TORTAS">TORTAS</p>
-                            <p class="tORTAS">TORTAS 2.0</p>
-                            <p class="SUBMARINE">SUBMARINE</p>
-                            <p class="POBOY">PO'BOY</p>
-                            <p class="OG">MEATBALL-OG</p>
-                            <p class="HERO">MEATBALL-PARM-HERO-</p>
-                            <p class="CS">CLUB-SANDWICHE</p>
-                            <p class="MM">MEATBALL-MARINA</p>
+                            <p class="TORTAS" id="tortas" >TORTAS</p>
+                            <p class="tORTAS" id="t" >TORTAS 2.0</p>
+                            <p class="SUBMARINE" id="submarine" >SUBMARINE</p>
+                            <p class="POBOY" id="poboy" >PO'BOY</p>
+                            <p class="OG" id="og">MEATBALL-OG</p>
+                            <p class="HERO" id="meatball">MEATBALL-PARM-HERO-</p>
+                            <p class="CS" id="club">CLUB-SANDWICH</p>
+                            <p class="MM" id="marina">MEATBALL-MARINA</p>
                             </div>
                         </div>
 
@@ -48,71 +48,71 @@
                         </div>
 
                         <form class="bread">
-                            <select class="BREAD">
+                            <select class="BREAD" id="roll" name="loaf">
                                 <option>1. TYPE OF BREAD</option> 
-                                <option>WHEAT BREAD...........R25.99</option>
-                                <option>WHITE BREAD...........R15.99</option>
-                                <option>SOURDOUGH BREAD...........R15.99</option>
-                                <option>RYE BREAD...........R15.99</option>
-                                <option>FLAT BREAD...........R15.99</option>
-                                <option>GLUTEN FREE WRAP...........R15.99</option>
-                                <option>MULTIGRAIN BREAD...........R15.99</option>
+                                <option value="wheat bread" id="wheat bread">WHEAT BREAD...........R15</option>
+                                <option value="white bread" id="white bread">WHITE BREAD...........R15</option>
+                                <option value="sourdough bread" id="sourdough bread">SOURDOUGH BREAD...........R15</option>
+                                <option value="rye bread" id="rye bread">RYE BREAD...........R15</option>
+                                <option value="flat bread" id="lat bread">FLAT BREAD...........R15</option>
+                                <option value="gluten free wrap" id="gluten free wrap">GLUTEN FREE WRAP...........R15</option>
+                                <option value="multigrain bread" id="multigrain bread">MULTIGRAIN BREAD...........R15</option>
                             </select>
                         </form>
                         
-                        <form class="meat">
-                            <select class="MEAT">
+                        <form class="meat" >
+                            <select class="MEAT" id="flesh" >
                                 <option>2. TYPE OF MEAT</option> 
-                                <option>HAM SLICES...........R25.99</option>
-                                <option>SALAMI SLICES...........R15.99</option>
-                                <option>POLONY...........R15.99</option>
-                                <option>TURKEY...........R15.99</option>
-                                <option>LAMB SLICES...........R15.99</option>
-                                <option>CHICKEN SLICES...........R15.99</option>
-                                <option>MEATBALLS...........R15.99</option>
+                                <option value="ham slices" id="ham slices">HAM SLICES...........R24.99</option>
+                                <option value="salami slices" id="salami slices">SALAMI SLICES...........R19.99</option>
+                                <option value="polony" id="polony">POLONY...........R14.99</option>
+                                <option value="turkey" id="turkey">TURKEY...........R27.99</option>
+                                <option value="lamb slices" id="lamb slices" >LAMB SLICES...........R34.99</option>
+                                <option value="chicken slices" id="chicken slices">CHICKEN SLICES...........R24.99</option>
+                                <option value="meatballs" id="meatballs">MEATBALLS...........R14.99</option>
                             </select>
                         </form>
 
                         <form class="paste">
-                            <select class="PASTE">
+                            <select class="PASTE" id="spread">
                                 <option>3. TYPE OF PASTE</option> 
-                                <option>Hummus...........R25.99</option>
-                                <option>SPICY AVOCADO SPREAD...........R15.99</option>
-                                <option>CREAMY CHEESE AND CHIVES...........R15.99</option>
-                                <option>MAYONNAISE...........R15.99</option>
+                                <option value="hummus" id="hummus">Hummus...........R24.99</option>
+                                <option value="spicy avocado spread" id="spicy avocado spread">SPICY AVOCADO SPREAD...........R19.99</option>
+                                <option value="creamy cheese and chives" id="creamy cheese and chives">CREAMY CHEESE AND CHIVES...........R14.99</option>
+                                <option value="mayonnaise" id="mayonnaise">MAYONNAISE...........R27.99</option>
                             </select>
                         </form>
 
-                        <form >
-                            <div class="toppings">
+                        <form onchange="">
+                            <div class="toppings" id="condiments">
                                 <h3>TOPPINGS</h3>
-                                <input type="checkbox">LETTUCE
-                                <div><input type="checkbox">SLICED TOMATO</div>
-                                <div><input type="checkbox">CHEDDAR-CHEESE</div>
-                                <div><input type="checkbox">SLICED CHEESE</div>
-                                <div><input type="checkbox">RAW-ONION</div>
-                                <div><input type="checkbox">FRIED-ONION</div>
-                                <div><input type="checkbox">PICKLES</div>
-                                <div><input type="checkbox">GREEN PEPPER</div>
-                                <div><input type="checkbox">YELLOW PEPPER</div>
-                                <div><input type="checkbox">RED PEPPER</div>
+                                <input type="checkbox" name="tops" value="lettuce" data-price="5" id="lettuce">LETTUCE
+                                <div><input type="checkbox" name="tops" value="slicedTomato" data-price="5" id="slicedTomato">SLICED TOMATO</div>
+                                <div><input type="checkbox" name="tops" value="cheddarCheese" data-price="5" id="cheddarCheese">CHEDDAR-CHEESE</div>
+                                <div><input type="checkbox" name="tops" value="slicedCheese" data-price="5" id="slicedCheese">SLICED CHEESE</div>
+                                <div><input type="checkbox" name="tops" value="rawOnion" data-price="5" id="rawOnion">RAW-ONION</div>
+                                <div><input type="checkbox" name="tops" value="friedOnion" data-price="5" id="friedOnion">FRIED-ONION</div>
+                                <div><input type="checkbox" name="tops" value="pickles" data-price="5" id="pickles">PICKLES</div>
+                                <div><input type="checkbox" name="tops" value="green pepper" data-price="5" id="green">GREEN PEPPER</div>
+                                <div><input type="checkbox" name="tops" value="yellow pepper" data-price="5" id="yellow">YELLOW PEPPER</div>
+                                <div><input type="checkbox" name="tops" value="red pepper" data-price="5" id="red">RED PEPPER</div>
                                 <strong><i><p>*NOTE...EVERY TOPPING IS R5 EACH</p></i></strong>
                             </div>
                         </form>
 
-                        <form >
+                        <form > 
                             <div class="toppings-two">
                                 <h3>TOPPINGS</h3>
-                                <input type="checkbox">AVOCADO 
-                                <div><input type="checkbox">MUSHROOMS</div>
-                                <div><input type="checkbox">FRIED EGG</div>
-                                <div><input type="checkbox">HARD BOIL EGG</div>
-                                <div><input type="checkbox">CUCUMBER</div>
-                                <div><input type="checkbox">FRIES</div>
-                                <div><input type="checkbox">CARROTS</div>
-                                <div><input type="checkbox">SHREDDED VEGGIES</div>
-                                <div><input type="checkbox">COLESLAW</div>
-                                <div><input type="checkbox">RED CABBAGE</div>
+                                <input type="checkbox" name="tops" value="avocado" data-price="5" id="avocado">AVOCADO 
+                                <div><input type="checkbox" name="tops" value="mushrooms" data-price="5"id="mushrooms">MUSHROOMS</div>
+                                <div><input type="checkbox" name="tops" value="fried egg" data-price="5" id="fried egg">FRIED EGG</div>
+                                <div><input type="checkbox" name="tops" value="hard boil egg" data-price="5" id="hard boil egg">HARD BOIL EGG</div>
+                                <div><input type="checkbox" name="tops" value="cucumber" data-price="5" id="cucumber">CUCUMBER</div>
+                                <div><input type="checkbox" name="tops" value="fries" data-price="5" id="fries">FRIES</div>
+                                <div><input type="checkbox" name="tops" value="carrots" data-price="5" id="carrots">CARROTS</div>
+                                <div><input type="checkbox" name="tops" value="shredded veggies" data-price="5" id="shredded veggies">SHREDDED VEGGIES</div>
+                                <div><input type="checkbox" name="tops" value="coleslaw" data-price="5" id="coleslaw">COLESLAW</div>
+                                <div><input type="checkbox" name="tops" value="red cabbage" data-price="5" id="red cabbage">RED CABBAGE</div>
                                 <strong><i><p>*NOTE...EVERY TOPPING IS R5 EACH</p></i></strong>
                             </div>
                             
@@ -121,13 +121,12 @@
                         <form >
                             <div class="toppings-three">
                                 <h3>SAUCES</h3>
-                                <input type="checkbox">TOMATO SAUCE
-                                <div><input type="checkbox">MUSHROOM SAUCE</div>
-                                <div><input type="checkbox">MUSTED</div>
-                                <div><input type="checkbox">BBQ SAUCE</div>
-                                <div><input type="checkbox">CUCUMBER</div>
-                                <div><input type="checkbox">HOT SAUCE</div>
-                                <div><input type="checkbox">CHEESE SAUCE</div>
+                                <input type="checkbox" name="sauce" value="tomato sauce" data-fee="2" id="tomato sauce">TOMATO SAUCE
+                                <div><input type="checkbox" name="sauce" value="mushroom sauce" data-fee="2" id="mushroom sauce">MUSHROOM SAUCE</div>
+                                <div><input type="checkbox" name="sauce" value="mustard" data-fee="2" id="mustard">MUSTED</div>
+                                <div><input type="checkbox" name="sauce" value="bbq sauce" data-fee="2" id="bbq sauce">BBQ SAUCE</div>
+                                <div><input type="checkbox" name="sauce" value="hot sauce" data-fee="2" id="hot suace">HOT SAUCE</div>
+                                <div><input type="checkbox" name="sauce" value="cheese sauce" data-fee="2" id="cheese sauce">CHEESE SAUCE</div>
                                 <strong><i><p>*NOTE...EVERY SAUCE IS R2 EACH</p></i></strong>
 
                             </div>
@@ -137,14 +136,13 @@
                             <h2><a href="../pages/drinks.html">DRINKS...</a></h2>
                         </div>
 
-                        <div class="checkout-button">
-                            <h2><a href="../pages/checkout.html">CHECKOUT -></a></h2>
-                        </div>
+                        <button class="btn btn-primary" type="button" onclick="makeWrap(); showOrder() "style="margin-left:1100px; border:2px solid orangered; color: blue; background-color: white;"> MAKE SANDWICH</button>
+
 
                 </div>
             </div>
         </div>
-    </div>  
+    </form>  
 
     <footer>
         <section>
